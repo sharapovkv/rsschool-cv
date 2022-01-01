@@ -6,8 +6,8 @@
 - Phone: +7 921-798-79-85
 - Email: sharapovk@gmail.com
 - GitHub: sharapovkv
-  ## About Me
-  I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
+## About Me
+I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
 
 I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
 
