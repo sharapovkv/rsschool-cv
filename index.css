@@ -1,0 +1,234 @@
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: ivory;
+}
+
+.resume-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-img__title {
+  font-size: 56px;
+  color: chocolate;
+}
+
+.caption {
+  color: darkcyan;
+  padding-bottom: 10px;
+}
+
+.item {
+  margin-bottom: 5px;
+}
+
+.item__link {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.resume-img__foto{
+  width: 160px;
+}
+
+.main {
+  flex-grow: 1;
+  background-color: ivory;
+}
+
+.main__description {
+  color: darkgray;
+  margin-bottom: 10px;
+}
+
+.main__description:last-child {
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 65px;
+}
+
+.footer {
+  background: antiquewhite;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.test {
+  height: 500px;
+  overflow: hidden;
+}
+
+.panel {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+a[ id= "about-me" ]:target ~ .test article.panel {
+  transform: translateY( 0px );
+}
+
+a[ id= "skills" ]:target ~ .test article.panel {
+  transform: translateY( -500px );
+}
+
+a[ id= "code-example" ]:target ~ .test article.panel {
+  transform: translateY( -1000px );
+}
+
+a[ id= "courses" ]:target ~ .test article.panel {
+  transform: translateY( -1500px );
+}
+
+.panel:nth-child(1) {
+  background: honeydew;
+}
+
+.panel:nth-child(2) {
+  background: wheat;
+}
+
+.panel:nth-child(3) {
+  background: teal;
+}
+
+.panel:nth-child(4) {
+  background: darkgoldenrod;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__link {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  color: darkred;
+}
+
+.list__link:active {
+  color: darkred;
+}
+
+.list__item {
+  border-radius: 10px;
+}
+
+.list__item:nth-child(1) {
+  background: honeydew;
+}
+
+.list__item:nth-child(2) {
+  background: wheat;
+}
+
+.list__item:nth-child(3) {
+  background: teal;
+}
+
+.list__item:nth-child(4) {
+  background: darkgoldenrod;
+}
+
+.nav {
+  padding: 10px 0 10px 0;
+}
+
+.code {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.skills-title {
+  color: darkcyan;
+}
+
+.code-example {
+  color: antiquewhite;
+}
+
+.courses-title {
+  color: darkslategrey;
+}
+
+.list-skills {
+  margin-top: 17px;
+}
+
+.list-skills__item {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 51px;
+  color: brown;
+}
+
+.list-skills__item::before {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 40px;
+  top: -7px;
+  left: 0;
+  background-size: contain;
+}
+
+.list-skills__item_html::before {
+  background-image: url('./img/html.png');
+}
+
+.list-skills__item_css::before {
+  background-image: url('./img/css3.png');
+}
+
+.list-skills__item_js::before {
+  background-image: url('./img/javascript.png');
+}
+
+.list-skills__item_git::before {
+  background-image: url('./img/git.png');
+}
+
+.courses-title__rs {
+  cursor: pointer;
+}

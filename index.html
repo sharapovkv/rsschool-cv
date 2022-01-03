@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="resume-img">
+        <div>
+          <h1 class="resume-img__title">Kirill Sharapov</h1>
+          <h2 class="caption">Contacts</h2>
+          <ul>
+            <li class="item">
+              <a href="#" class="item__link">Location: St. Petersburg, Russian Federation</a>
+            </li>
+            <li class="item">
+              <a href="tel:+79217987985" class="item__link">Phone: +7 921-798-79-85</a>
+            </li>
+            <li class="item">
+              <a href="mailto:sharapovk@gmail.com" class="item__link">Email: sharapovk@gmail.com</a>
+            </li>
+            <li class="item">
+              <a href="#" class="item__link">GitHub: sharapovkv</a>
+            </li>
+          </ul>
+        </div>
+        <img class="resume-img__foto" src="./img/logo.png" alt="resume-foto" width="160" height="240">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+      <a href="#" id='about-me'></a>
+      <a href="#" id="skills"></a>
+      <a href="#" id="code-example"></a>
+      <a href="#" id="courses"></a>
+      <div class="wrapper">
+        <nav class="nav">
+          <ul class="list">
+            <li class="list__item">
+              <a class="list__link" href="#about-me">About Me</a>
+            </li>
+            <li class="list__item">
+              <a class="list__link" href="#skills">Skills</a>
+            </li>
+            <li class="list__item">
+              <a class="list__link" href="#code-example">Code Example</a>
+            </li>
+            <li class="list__item">
+              <a class="list__link" href="#courses">Courses</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="test">
+          <article class="panel">
+            <div class="wrapper">
+              <h2 class="caption">About Me</h2>
+              <p class="main__description">I have good interpersonal skills, am an excellent team worker and very willing to
+                learn and develop new skills.</p>
+              <p class="main__description">I am reliable and dependable and often seek new responsibilities within a wide range
+                of employment areas.</p>
+            </div>
+          </article>
+          <article class="panel">
+            <div class="wrapper">
+              <h2 class="skills-title">Skills</h2>
+              <ul class="list-skills">
+                <li class="list-skills__item list-skills__item_html">HTML</li>
+                <li class="list-skills__item list-skills__item_css">CSS</li>
+                <li class="list-skills__item list-skills__item_js">JavaScript (Basic)</li>
+                <li class="list-skills__item list-skills__item_git">Git</li>
+              </ul>
+            </div>
+          </article>
+          <article class="panel">
+            <div class="wrapper">
+              <h2 class="code-example">Code Example</h2>
+              <pre>
+                <code class="code">
+function multiply(a, b) { 
+return a * b; 
+} 
+const result = multiply(2, 2); 
+alert(result);
+                </code>
+              </pre>
+            </div>
+          </article>
+          <article class="panel">
+            <div class="wrapper">
+              <h2 class="courses-title">Courses</h2>
+              <p>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</p>
+              <p>JavaScript Manual on learn.javascript.ru (in progress)</p>
+            </div>
+          </article>
+      </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <a class="link" href="https://github.com/sharapovkv">
+        sharapovkv 2022
+      </a>
+      <a class="link" href="https://rs.school/js/">
+        <img class="logo" src="./img/logo.svg" alt="logo" width="65" height="25">
+      </a>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
