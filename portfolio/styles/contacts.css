@@ -1,0 +1,8 @@
+.contacts {
+  background: black;
+  padding-top: 100px;
+}
+
+.contacts__wrapper {
+  background: url("../assets/img/contacts.jpg") no-repeat;
+}

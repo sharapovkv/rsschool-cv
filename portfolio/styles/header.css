@@ -1,0 +1,153 @@
+.header {
+  background: black;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__container {
+  background: url("../assets/img/header-bg.jpg") no-repeat;
+  padding-bottom: 329px;
+  background-position: center 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 19px 0 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.logo:hover > path {
+  fill: #bdae82;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.list__item {
+  margin-right: 31px;
+}
+
+.list__item a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.list__item a:hover {
+  color: #bdae82;
+}
+
+.nav-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.btn-lang {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  color: #ffffff;
+}
+
+.btn-lang_active {
+  color: #bdae82;
+}
+
+.slesh {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 5px;
+  margin-left: 6px;
+}
+
+.hero {
+  margin-top: 180px;
+  padding-left: 80px;
+}
+
+.header__title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 120px;
+  color: #ffffff;
+}
+
+.header__description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-top: 10px;
+  max-width: 468px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  border: 2px solid #bdae82;
+  border-radius: 0;
+  width: 220px;
+  height: 55px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  padding: 0;
+  color: #bdae82;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.btn:hover {
+  color: #ffffff;
+}
+
+.btn_active {
+  background: #bdae82;
+  color: #000000;
+}
+
+.btn_active:hover {
+  color: #ffffff;
+}
