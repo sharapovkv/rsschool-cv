@@ -54,26 +54,4 @@
   padding-top: 40px;
 }
 
-.github {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 50px;
-  color: #ffffff;
-}
 
-.rolling-scopes-scohol {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 50px;
-  color: #ffffff;
-}
-
-.footer__wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 0 50px 0;
-}

@@ -16,6 +16,7 @@
   color: #bdae82;
   max-width: fit-content;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .section-title__three::before {
@@ -57,9 +58,18 @@
 
 .btn-play {
   position: absolute;
-  background: url("../assets/svg/Play_hover.svg") no-repeat;
   width: 130px;
   height: 130px;
   cursor: pointer;
   border: none;
+  background: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
 }
+
+.btn-play__video:hover > path {
+  fill: #bdae82;
+}
+

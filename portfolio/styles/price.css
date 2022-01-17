@@ -42,6 +42,40 @@
   padding-bottom: 20px;
 }
 
+.section-title__four {
+  position: relative;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.section-title__four::before {
+  content: "";
+  position: absolute;
+  width: 279px;
+  height: 3px;
+  background: #bdae82;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 122px;
+}
+
+.section-title__four::after {
+  content: "";
+  position: absolute;
+  width: 278px;
+  height: 3px;
+  background: #bdae82;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 123px;
+}
+
 .price-card__description {
   display: block;
   font-family: Inter;
