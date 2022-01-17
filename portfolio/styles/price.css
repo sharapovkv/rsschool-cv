@@ -11,11 +11,13 @@
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 60px;
-  gap: 5px;
+  gap: 25px;
 }
 
 .price-card {
   width: 450px;
+  border: 3px solid #BDAE82;
+  padding-top: 40px;
 }
 
 .price-card__title {
@@ -54,5 +56,6 @@
 .price-card__button {
   display: flex;
   justify-content: center;
-  padding-top: 48px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }

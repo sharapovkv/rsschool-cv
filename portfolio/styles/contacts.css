@@ -4,5 +4,76 @@
 }
 
 .contacts__wrapper {
+  display: flex;
+  justify-content: flex-end;
   background: url("../assets/img/contacts.jpg") no-repeat;
+  padding: 60px 20px 195px 0px;
+}
+
+.contacts__title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+}
+
+.contacts__field {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #bdae82;
+  outline: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+  display: block;
+  width: 450px;
+  padding: 2px 0 3px 18px;
+  margin-bottom: 21px;
+}
+
+.contacts__field::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+}
+
+.contacts__field_textarea {
+  resize: none;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.contacts__form {
+  padding-top: 40px;
+}
+
+.github {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.rolling-scopes-scohol {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 50px 0;
 }
